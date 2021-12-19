@@ -9,14 +9,23 @@
             background-color: #fff;
             max-width: 500px;
             margin: 50px auto;
+            border-radius: 5px;
             padding: 30px 20px;
             box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        label{
+            text-align: left;
+            width: 100%;
+        }
+
+        .form-element{
+            text-align: left;
         }
  
         /* Styling form-control Class */
         .form-control {
             text-align: left;
-            margin-bottom: 25px;
+            margin-bottom: 5px;
         }
  
         /* Styling form-control Label */
@@ -35,7 +44,7 @@
             font-family: inherit;
             padding: 10px;
             display: block;
-            width: 95%;
+            width: 50%;
         }
  
         /* Styling form-control Radio
@@ -54,7 +63,7 @@
             font-family: inherit;
             font-size: 21px;
             display: block;
-            width: 100%;
+            width: 50%;
             margin-top: 50px;
             margin-bottom: 20px;
         }
